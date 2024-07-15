@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs with Usernames and Posts</title>
+    <style>
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid #ccc;
+        }
+        .tab {
+            padding: 10px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            margin-right: 5px;
+        }
+        .tab.active {
+            background-color: #f0f0f0;
+        }
+        .content {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabs" id="tabs"></div>
+    <div class="content" id="content">Select a user to see their posts.</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
